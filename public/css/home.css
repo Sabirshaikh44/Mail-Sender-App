@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #487eb0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4rem;
+}
+
+.mailerContainer{
+    background: white;
+    padding: 4rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+}
+.formContainer form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 70vw;
+}
+.formContainer form input,textarea{
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.sendMailBtn{
+    padding: 0.753rem 3rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #6610f2;
+    color: white;
+    cursor: pointer;
+    transition: .3s all;
+    width: fit-content;
+}
+.sendMailBtn:hover{
+    opacity: 0.7;
+}

@@ -1,10 +1,6 @@
 const express = require('express');
-// const router = express.Router();
 
 const nodeMailer = require('nodemailer');
-
-// this doesn't work cauz user cant be verified for sending email in sendgrid:
-// const sendGridTransporter = require('nodemailer-sendgrid-transport');
 
 
 // node-notifier module for sending notifications : 
